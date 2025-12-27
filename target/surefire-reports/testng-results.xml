@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-27T17:38:46 IST" name="Surefire suite" finished-at="2025-12-27T17:38:46 IST" duration-ms="61">
+    <groups>
+    </groups>
+    <test started-at="2025-12-27T17:38:46 IST" name="Surefire test" finished-at="2025-12-27T17:38:46 IST" duration-ms="61">
+      <class name="tests.SimpleCleanupDemo">
+        <test-method signature="testDataCleanupOnSuccess()[pri:0, instance:tests.SimpleCleanupDemo@12b0404f]" started-at="2025-12-27T17:38:46 IST" name="testDataCleanupOnSuccess" finished-at="2025-12-27T17:38:46 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataCleanupOnSuccess -->
+        <test-method is-config="true" signature="cleanupTestData()[pri:0, instance:tests.SimpleCleanupDemo@12b0404f]" started-at="2025-12-27T17:38:46 IST" name="cleanupTestData" finished-at="2025-12-27T17:38:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupTestData -->
+      </class> <!-- tests.SimpleCleanupDemo -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

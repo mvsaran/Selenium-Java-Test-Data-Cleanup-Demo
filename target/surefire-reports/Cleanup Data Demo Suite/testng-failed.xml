@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cleanup Data Demo Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Cleanup Tests(failed)" verbose="0">
+    <classes>
+      <class name="tests.SimpleCleanupDemo">
+        <methods>
+          <include name="cleanupTestData"/>
+          <include name="testDataCleanupOnFailure"/>
+        </methods>
+      </class> <!-- tests.SimpleCleanupDemo -->
+    </classes>
+  </test> <!-- Cleanup Tests(failed) -->
+</suite> <!-- Failed suite [Cleanup Data Demo Suite] -->

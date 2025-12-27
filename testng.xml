@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cleanup Data Demo Suite">
+    <test name="Cleanup Tests">
+        <classes>
+            <class name="tests.SimpleCleanupDemo"/>
+            <!-- Original demos (may fail due to external dependencies) -->
+            <!-- <class name="tests.CleanupSuccessTest"/> -->
+            <!-- <class name="tests.CleanupDemoTest"/> -->
+        </classes>
+    </test>
+</suite>
